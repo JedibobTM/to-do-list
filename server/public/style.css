@@ -1,0 +1,91 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    margin: 0%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(130, 188, 255);
+    padding: 0.15rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+form {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(187, 219, 255);
+    color:rgb(0, 82, 175);
+
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+#submitButton {
+    margin-left: 0.3rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+input {
+    width: 75%;
+    background-color: rgb(187, 219, 255);
+    border-radius: 5px;
+    border: none;
+    padding-left: 0.5rem;
+}
+
+::placeholder {
+    color:rgb(0, 82, 175);
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color:rgb(0, 82, 175);
+}
+.completed {
+    background-color: red;
+    margin: 0;
+}
+
+.task-is-not-complete {
+    color:rgb(0, 82, 175);
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex: 25%;
+    justify-content: center;
+}
+
+td {
+    padding: 3px;
+    margin-left: 5%;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(187, 219, 255);
+    color:rgb(0, 82, 175);
+}

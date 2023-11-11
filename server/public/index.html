@@ -6,12 +6,32 @@
   <link rel="stylesheet" href="style.css">
   <script src="./scripts/axios.js"></script>
   <script src="./scripts/client.js"></script>
-  <title>SQL TO-DO List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>SQL To-Do List</title>
 </head>
 <body>
   <header>
-    <h1>SQL TO-DO List</h1>
+    <div>
+     <h1>SQL To-Do List</h1>
+    </div>
   </header>
-
+  <form>
+    <input type="text" id="textIn" data-testid="toDoTextInput" value="" placeholder="To-Do">
+    <button type="button" id="submitButton" data-testid="submitButton" onclick="handleSubmit(event)"><strong>Submit</strong></button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>      </th>
+      </tr>
+    </thead>
+    <tbody id="toDoTableBody"></tbody>
+  </table>
 </body>
+<footer>
+  <h4>© 2023 Christian Carlson | (͠≖ ͜ʖ͠≖) I'm watching you</h4>
+</footer>
 </html>

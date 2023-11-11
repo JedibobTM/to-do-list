@@ -50,9 +50,9 @@ Create a new database through Postico. Name it `weekend-to-do-app`. Then, run th
 
 ## Testing Requirements:
 
-1. The input you use to collect "to-do text" user input must have:
+X The input you use to collect "to-do text" user input must have:
     * `data-testid="toDoTextInput"`
-2. The button that a user clicks to "create" a new to-do must have:
+X The button that a user clicks to "create" a new to-do must have:
   * `data-testid="submitButton"`
 3. Each rendered to-do item must have:
     * `data-testid="toDoItem"`
